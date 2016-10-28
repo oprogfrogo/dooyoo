@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="stylesheets/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="stylesheets/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+	<script src="javascripts/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Secondary Sliding Navigation | CodyHouse</title>
+</head>
+<body>
+	<header>
+		<div class="cd-logo"><a href="#0"><img src="images/cd-logo.svg" alt="Logo"></a></div>
+
+		<nav class="cd-main-nav-wrapper">
+			<ul class="cd-main-nav">
+				<li><a href="#0">About</a></li>
+				<li><a href="#0">Projects</a></li>
+				<li><a href="#0">Blog</a></li>
+				<li><a href="#0">Contact</a></li>
+				<li>
+					<a href="#0" class="cd-subnav-trigger"><span>Login</span></a>
+
+					<ul>
+						<li class="go-back"><a href="#0">Menu</a></li>
+						<li><a href="/login" class="btn btn-warning"><span class="fa fa-sign-in"></span> Login</a></li>
+						<li><a href="/signup" class="btn btn-warning"><span class="fa fa-user"></span> Signup</a></li>
+						<li><a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a></li>
+						<li><a href="/auth/twitter" class="btn btn-info"><span class="fa fa-twitter"></span> Twitter</a></li>
+						<li><a href="/auth/google" class="btn btn-danger"><span class="fa fa-google-plus"></span> Google</a></li>
+					</ul>
+				</li>
+			</ul> <!-- .cd-main-nav -->
+		</nav> <!-- .cd-main-nav-wrapper -->
+		
+		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+	</header>
+	
+	<main class="cd-main-content">
+		<%-body -%>
+	</main>
+<script src="javascripts/jquery-2.1.1.js"></script>
+<script src="javascripts/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
