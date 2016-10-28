@@ -17,9 +17,6 @@ var flash = require('connect-flash');
 var session = require('express-session');
 var engine = require('ejs-locals')
 
-// var configDB = require('./config/database.js');
-// mongoose.connect(configDB.url);
-
 var app = express();
 
 // use ejs-locals for all ejs templates:
